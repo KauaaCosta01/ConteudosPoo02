@@ -6,12 +6,6 @@ public class Aluno {
     private double nota2;
     private double nota3;
 
-    public Aluno(String nome, double nota1, double nota2, double nota3) {
-        this.nome = nome;
-        this.nota1 = nota1;
-        this.nota2 = nota2;
-        this.nota3 = nota3;
-    }
     public void setNome(String nome) {
         this.nome = nome;
     }
@@ -44,7 +38,15 @@ public class Aluno {
         return nota3;
     }
 
+    public void exibeInformacoesAluno(){
+        System.out.println("Nome: " + getNome());
+        System.out.println("Nota1: " + getNota1());
+        System.out.println("Nota2: " + getNota2());
+        System.out.println("Nota3: " + getNota3());
+    }
+
     public double calculaMedia() {
-        return (nota1 + nota2 + nota3) / 3;
+        return ((nota1 + nota2 + nota3) / 3);
     }
 }
+

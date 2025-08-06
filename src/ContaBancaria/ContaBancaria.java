@@ -5,17 +5,11 @@ public class ContaBancaria {
     private int numeroConta;
     private double Saldo;
 
-    public void exibirInfoContaBancaria(){
-        System.out.println("Titular: " + Titular);
-        System.out.println("Numero Conta: " + numeroConta);
-        System.out.println("Saldo: " + Saldo);
-    }
-
     public void setTitular(String Titular) {
         this.Titular = Titular;
     }
 
-    public void setnumeroConta(int numeroConta) {
+    public void setNumeroConta(int numeroConta) {
         this.numeroConta = numeroConta;
     }
 
@@ -23,15 +17,22 @@ public class ContaBancaria {
         this.Saldo = Saldo;
     }
 
-    public String getTitual() {
-        return  Titular;
+    public String getTitular() {
+        return Titular;
     }
 
-    public int getnumeroConta() {
+    public int getNumeroConta() {
         return numeroConta;
     }
 
     public double getSaldo() {
         return Saldo;
+    }
+
+    public void exibeInfoBancaria() {
+        System.out.println("\n=== Informações Bancárias ===");
+        System.out.println("Titular: " + getTitular());
+        System.out.println("Numero Conta: " + getNumeroConta());
+
     }
 }

@@ -1,33 +1,60 @@
-# 💻 Estudos de Java - POO (Programação Orientada a Objetos)
+# 🔄 Estudos em Java - Condicionais, Laços e Scanner
 
-![Java Badge](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
-![GitHub Repo Size](https://img.shields.io/github/repo-size/seu-usuario/nome-do-repo?style=for-the-badge)
-![GitHub Last Commit](https://img.shields.io/github/last-commit/seu-usuario/nome-do-repo?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=for-the-badge)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![Status](https://img.shields.io/badge/status-em%20andamento-yellow?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
 
 ---
 
 ## 📚 Sobre
 
-Este repositório contém exercícios práticos e projetos desenvolvidos durante meus estudos de **Java**, com foco em **Programação Orientada a Objetos (POO)**.  
-Os projetos foram criados no **IntelliJ IDEA**, abordando conceitos como:
+Este repositório reúne exercícios práticos de **lógica de programação em Java**, com foco em:
 
-- ✅ Criação de classes e objetos
-- ✅ Encapsulamento (uso de `private`, `get` e `set`)
-- ✅ Métodos personalizados
-- ✅ Uso da classe `Scanner` para entrada de dados
-- ✅ Exibição de informações no console
-- ✅ Práticas com lógica de verificação (como maioridade)
+- Estruturas condicionais (`if`, `else if`, `else`)
+- Laços de repetição (`while`)
+- Entrada de dados com a classe `Scanner`
+
+Os códigos foram desenvolvidos durante meus estudos de **programação básica com Java**, utilizando a IDE **IntelliJ IDEA**.
 
 ---
 
-## 🧠 Objetivos do Projeto
+## 💡 Objetivos
 
-- Consolidar os conceitos de **POO em Java**
-- Praticar a estrutura de classes, métodos e atributos
-- Utilizar o IntelliJ como ambiente de desenvolvimento
-- Desenvolver aplicações simples com entrada de dados
-- Compreender boas práticas com encapsulamento
+- Praticar a criação de fluxos lógicos com condicionais
+- Desenvolver aplicações simples com interatividade no console
+- Simular decisões com base em entrada do usuário
+- Repetir instruções usando `while`
+- Entender o funcionamento de blocos `if/else` e menus interativos
+
+---
+
+## ✨ Demonstrações dos Projetos
+
+### 🔐 Simulação de Login com If/Else
+
+Verifica o nome de usuário e senha digitados pelo usuário:
+
+![login-demo](https://i.imgur.com/BcGcv1z.png)
+
+---
+
+### 🔁 Menu Interativo com While
+
+Um menu que se repete até o usuário digitar a opção de saída:
+
+![menu-demo](https://i.imgur.com/qcQzbdO.png)
+
+---
+
+### 🧮 Classificação de Notas com Condições
+
+Analisa a nota informada pelo usuário e exibe a situação:
+
+- Nota < 5 → Reprovado
+- Nota >= 5 e < 7 → Recuperação
+- Nota >= 7 → Aprovado
+
+![nota-demo](https://i.imgur.com/xR3e5p3.png)
 
 ---
 
@@ -46,36 +73,16 @@ Os projetos foram criados no **IntelliJ IDEA**, abordando conceitos como:
  ┃ ┗ 📜 principalPessoa.java
 
 
-✨ Demonstração
-🎬 Projeto Filme:
-
-Entrada e exibição de dados de um filme, com sistema de avaliações e cálculo de média.
-
-🏦 Projeto Conta Bancária:
-📸 Exemplo de execução (ilustração):
-
-
-👤 Projeto Pessoa (Verificação de maioridade):
-📸 Exemplo ilustrativo:
-
-
-🛠️ Tecnologias Utilizadas
+🛠️ Tecnologias e Ferramentas
 Java 17+
 
 IntelliJ IDEA
 
-Programação Orientada a Objetos
+Classe Scanner
 
-Console (entrada e saída)
+Lógica de programação
 
-Scanner
-
-Git e GitHub
-
-
-🤝 Contribuição
-Este projeto é voltado para fins educacionais.
-Sinta-se à vontade para fazer um fork, testar melhorias ou deixar sugestões! 😊
+Condicionais e laços
 
 📩 Contato
 LinkedIn: Kauã Costa

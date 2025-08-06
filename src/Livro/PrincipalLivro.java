@@ -1,17 +1,20 @@
 package Livro;
+import java.util.Scanner;
 
 public class PrincipalLivro {
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
         Livro livro1 = new Livro();
-        Livro livro2 = new Livro();
 
-        livro1.setTitulo("O poderoso Chefão");
-        livro1.setAutor("Kauã Costa");
+        System.out.println("Digite o nome do Autor: ");
+        livro1.setAutor(scanner.nextLine());
+        System.out.println("Digite o nome do Livro: ");
+        livro1.setTitulo(scanner.nextLine());
+        System.out.println("Digite o ano de Lancamento: ");
+        livro1.setAnoLancamento(scanner.nextInt());
 
-        livro2.setTitulo("Lógica de Programação");
-        livro2.setAutor("Paulo Silveira");
-
-        livro1.exibirDetalhes();
-        livro2.exibirDetalhes();
+        livro1.exibeInfoLivro();
+        scanner.close();
     }
 }
